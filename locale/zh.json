@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "采文 · CollectKit",
+    "description": "左侧边栏采集面板：抓取网页正文与图片，按需生成 docx/xlsx/pptx/pdf 等文件。"
+  }
+}

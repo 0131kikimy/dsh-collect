@@ -1,0 +1,65 @@
+{
+  "name": "dsh-collect",
+  "version": "1.0.0",
+  "description": "采文 · CollectKit — DeepSeek Harness 侧边栏采集插件：优先用非桌面操控的方式抓取网页正文与图片，并按需生成 docx / xlsx / pptx / pdf / md / html / txt / csv / json 文件。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CONTRACT.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "web-collector",
+    "scraper",
+    "docx",
+    "xlsx",
+    "pptx",
+    "pdf"
+  ],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0131kikimy/dsh-collect.git"
+  },
+  "homepage": "https://github.com/0131kikimy/dsh-collect#readme",
+  "bugs": {
+    "url": "https://github.com/0131kikimy/dsh-collect/issues"
+  }
+}

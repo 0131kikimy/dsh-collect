@@ -1,0 +1,29 @@
+# 依赖目录
+node_modules/
+
+# 测试临时产物
+test/tmp/
+test/.tmp/
+test/fixtures/tmp/
+*.tmp
+coverage/
+
+# 采集输出（用户数据，默认输出目录，不入库）
+采文输出/
+output/
+
+# 日志
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 打包与缓存
+*.tgz
+.cache/

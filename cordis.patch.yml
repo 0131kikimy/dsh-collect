@@ -1,0 +1,12 @@
+# dsh-collect（采文 · CollectKit）挂载行
+#
+# 一行 insert：把本包入口按【包名】插进组合树。
+# name 必须等于 package.json 的包名，Node 才能解析到已安装的代码。
+#
+# 配置默认留空：装好后点左侧边栏「采文」图标，在面板里改即可（写入
+# $DSH_HOME/dsh-collect/settings.json，面板保存的值优先于这里的 config）。
+# 也可以直接改这里，字段见 lib/config.js 的 DEFAULTS。
+- insert:
+    - id: dsh-collect
+      name: dsh-collect
+      config: {}
