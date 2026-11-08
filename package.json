@@ -1,6 +1,6 @@
 {
   "name": "dsh-collect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "采文 · CollectKit — DeepSeek Harness 侧边栏采集插件：优先用非桌面操控的方式抓取网页正文与图片，并按需生成 docx / xlsx / pptx / pdf / md / html / txt / csv / json 文件。",
   "type": "module",
   "main": "lib/index.js",
